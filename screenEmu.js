@@ -1519,5 +1519,5 @@ void main(void)
 })();
 
 module.exports = {
-  apple2shader: apple2shader
+  screenEmu: screenEmu
 }
