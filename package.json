@@ -1,0 +1,26 @@
+{
+  "name": "apple2shader",
+  "version": "0.0.1",
+  "description": "NTCS/PAL Shader for WebGL",
+  "main": "screenEmu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whscullin/apple2shader.git"
+  },
+  "keywords": [
+    "apple2",
+    "webgl",
+    "ntsc",
+    "pal",
+    "shader"
+  ],
+  "author": "Marc S. Ressl, Zellyn Hunter",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/whscullin/apple2shader/issues"
+  },
+  "homepage": "https://github.com/whscullin/apple2shader#readme"
+}
