@@ -1517,3 +1517,7 @@ void main(void)
     Point: Point,
   };
 })();
+
+module.exports = {
+  apple2shader: apple2shader
+}
