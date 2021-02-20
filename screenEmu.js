@@ -1518,6 +1518,8 @@ void main(void)
   };
 })();
 
-module.exports = {
-  screenEmu: screenEmu
+if (typeof module !== 'undefined') {
+  module.exports = {
+    screenEmu: screenEmu
+  }
 }
