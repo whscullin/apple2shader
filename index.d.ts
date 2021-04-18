@@ -44,7 +44,7 @@ export namespace screenEmu {
         displayShadowMask: ShadowMask;
         displayPersistence: number;
         displayCenterLighting: number;
-        displayLuninanceGain: number;
+        displayLuminanceGain: number;
     }
 
     export class ScreenView {
