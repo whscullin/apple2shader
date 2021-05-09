@@ -49,6 +49,11 @@ export namespace screenEmu {
 
     export class ScreenView {
         constructor(canvas: HTMLCanvasElement);
+        displayConfiguration: DisplayConfiguration;
+        image: ImageInfo;
+
+        initOpenGL: () => void;
+        vsync: () => void;
     }
 
     export class ImageInfo {

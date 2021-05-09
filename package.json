@@ -1,7 +1,7 @@
 {
   "name": "apple2shader",
-  "version": "0.0.1",
-  "description": "NTCS/PAL Shader for WebGL",
+  "version": "0.0.2",
+  "description": "NTSC/PAL Shader for WebGL",
   "main": "screenEmu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
