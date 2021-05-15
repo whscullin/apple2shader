@@ -1,6 +1,6 @@
 {
   "name": "apple2shader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NTSC/PAL Shader for WebGL",
   "main": "screenEmu.js",
   "scripts": {
