@@ -818,6 +818,9 @@ void main(void)
           this.image.displayPersistence != 0) {
         this.drawDisplayCanvas();
       }
+
+      this.imageChanged = false;
+      this.configurationChanged = false;
     }
 
     uploadImage() {
