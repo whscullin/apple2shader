@@ -52,7 +52,7 @@ export namespace screenEmu {
         displayConfiguration: DisplayConfiguration;
         image: ImageInfo;
 
-        initOpenGL: () => void;
+        initOpenGL: () => Promise<void>;
         vsync: () => void;
     }
 
