@@ -662,7 +662,7 @@ void main(void)
 
   const ScreenView = class {
     constructor(canvas) {
-      const gl = canvas.getContext("webgl");
+      const gl = canvas.getContext("webgl", {preserveDrawingBuffer: true});
       const float_texture_ext = gl.getExtension('OES_texture_float');
       if (float_texture_ext == null) {
         throw new Error("WebGL extension 'OES_texture_float' unavailable");
